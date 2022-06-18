@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    
+}
+:root{
+    --paragraph-:#719
+}
+:root{
+    --heading-:rgb(179, 73, 12);
+}
+:root{
+    --button-:#719
+}
+.search_div{
+    display:inline;
+    float: right;
+    margin-top: 15rem;
+    margin-right: 1rem;
+}
+.search-bar{
+  
+    height: 3.6rem;
+    width:38rem ;
+    border: .2rem solid var(--heading-);
+    border-radius: .9rem;
+    
+
+}
+.btn_div{
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 15rem;
+    margin-left: 80rem;
+}
+.search_btn{
+    width: 8rem;
+    height: 3.5rem;
+    font-size: 2rem;
+    background-image: linear-gradient(rgb(23, 33, 172),rgb(6, 85, 204));
+    border-radius: 0.4rem;
+    color: rgb(255, 255, 255);
+}
+
+
+.title_div h5{
+    font-size: 3.5rem;
+    background-color: red;
+    background-image: linear-gradient(yellow,red);
+    text-shadow: .2rem .1rem .4rem rgb(198, 236, 25);
+    font-family: century Gothic;
+    width: 60rem;
+    border-radius: 2rem;
+    text-align: center;
+    margin-top: 10rem;
+    margin-left: 16rem;
+    user-select: none;
+}
+.para_div p{
+    font-size: 2rem;
+    text-shadow: .4rem .1rem .4rem  rgb(243, 124, 13);
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 0.09rem;
+    width: 60rem;
+    border-radius: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 16rem;
+    color: rgb(255, 255, 255);
+    user-select: none;
+}
+.search-bar:active{
+    box-shadow:rgb(243, 124, 13) .1rem .1rem 1rem .3rem  ;
+}
+::placeholder{
+    color:rgb(88, 80, 80);
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    font-size:  1.8rem  ;
+    text-align: left;
+    font-weight: lighter;
+    /* font-style; */
+    letter-spacing: .1rem;
+    /* text-shadow:1px 1px 5px rgb(41, 32, 32); */
+}
+
+@media (max-width: 415px){
+
+    .title_div{
+        margin-top: -9rem;
+    }
+  .title_div h5{
+    width: 45rem;
+    margin-left: 2rem;
+    font-size: 2.5rem;
+    margin-top: 15rem;
+  }
+    .para_div p{
+        margin-left: 2rem;
+        word-wrap: break-word;
+        width: 48rem;
+    }
+
+    .btn_div{
+        float: inhesrit;
+       margin-top: -50rem;
+      margin-left: 41rem;
+      display: inline;
+
+
+    }   
+
+}
+   

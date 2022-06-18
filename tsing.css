@@ -1,0 +1,223 @@
+/* ============================================================
+     🌐🌐🌐🌐🌐➡➡〰 Startup➡➡〰🌐🌐🌐🌐🌐 
+============================================================  */
+
+*{
+
+
+
+    margin: 0;
+    padding: 0;
+    font-family:century Gothic;
+}
+
+/* ============================================================
+     🌐🌐🌐🌐🌐➡➡〰 Home Page Background  ➡➡〰🌐🌐🌐🌐🌐 
+============================================================  */
+ body{
+    background-image:url(1.jpg);
+    height: 100vh;
+	background-size: cover;
+	background-position:center;
+ }
+
+/* ============================================================
+     🌐🌐🌐🌐🌐➡➡〰 Nav Background Image ➡➡〰🌐🌐🌐🌐🌐 
+============================================================  */
+
+.half_bg{
+    width: 100vw;
+    height: 400px;
+    background-image: linear-gradient(rgb(41, 189, 132),rgb(89, 168, 14));
+}
+
+
+
+
+
+/* ============================================================
+     🌐🌐🌐🌐🌐➡➡〰 3 Line Button➡➡〰🌐🌐🌐🌐🌐 
+============================================================  */
+
+.three-line-menu-a div{
+   
+   border-radius: 5px;
+   background-color:rgb(86, 26, 155);
+   
+   margin: 9px 15px ;
+
+}
+.three_lines_menu{
+    width: 50px;
+    height: 40px;
+    background: silver;
+    position: relative;
+    position: fixed;
+    top: 10px;
+    left: 30px;
+}
+.three-line-menu-a{
+    position: absolute;
+    justify-content: center;
+    cursor:pointer;
+}
+.three-line-menu{
+    position: relative;
+    right: 8px;
+    top: 0px;   
+}
+.line-one{
+    height: 2px;
+    width : 35px;
+}
+.line-two{
+    height: 2px;
+    width : 35px;
+    
+}
+.side-menu{
+    transition: 0.3s;
+}
+.line-three{
+    height: 2px;
+    width : 35px;
+}  
+.nav:hover .side-menu{
+
+background: rgb(150, 93, 255);
+   
+}
+.three_lines_menu:hover{
+ background-color: silver;
+}
+/* ================================================================================
+     🌐🌐🌐🌐🌐➡➡〰 Side Menu ((content,bg and functionality))➡➡〰🌐🌐🌐🌐🌐 
+=================================================================================== */
+
+
+.side-menu-bg{
+    width: 200px;
+    height: 100vh;
+    background-color:silver;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+
+}
+ /* ===========================  Buttons  ========================== */
+.content-sd-menu a {
+    margin: 2px 0px;
+    /* border: 1px solid rgb(117, 115, 115); */
+    padding:15px 10px;
+    text-align: center;
+    display: grid;
+    transition: 0.3s; 
+}
+
+/* .content-sd-menu li a{
+    text-decoration: none;
+	color: #fff;
+	padding: 5px 30px;
+	border: 2px solid #fff;
+    text-transform: capitalize;	
+	font-family:century Gothic;
+	transition: 0.3s ease;
+	background-color: red;
+	-webkit-border-before-width:10px;
+    font-weight:bold;   	                           
+} */
+
+.content-sd-menu a{
+    text-decoration: none;
+    color: rgb(46, 44, 44);
+    font-weight:560;
+    font-family: century Gothic;
+    transition: 0.3s;
+    user-select: none;
+
+}
+
+.content-sd-menu{
+    position:relative;
+ top:60px ;
+  
+}
+.cross1{
+    width: 3px;
+    height: 20px;
+    background-color:blue;
+}
+.a-btn-menu:hover{
+    background-color: rgb(117, 115, 115);
+}
+.a-btn-menu:hover{
+    color: rgb(189, 189, 135);
+    transform:rotate(70deg);
+
+
+
+
+}
+.three_lines_menu{
+    transition: 1s;
+}
+.three_lines_menu:hover{
+    transform:rotate(90deg);
+    /* transform:rotateY(180deg); */
+}
+.a-btn-menu:hover{
+    transform:rotateX(20deg)
+}
+.three-line-menu .whenactive{
+    width: 23px;
+    height: 45px;
+}
+
+.list-buttons-menu{
+    text-decoration: none;
+}
+
+
+/* ================================================================================
+     🌐🌐🌐🌐🌐➡➡〰 navigation anchor tags➡➡〰🌐🌐🌐🌐🌐 
+=================================================================================== */
+
+
+.navi_span{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+
+}
+
+
+
+
+
+.nav_a{
+    text-decoration:none;
+    color:rgb(164, 243, 38);
+    margin-right: 10px;
+    transition: 0.6s ease;
+    padding: 5px 18px ;
+    border: 0.8px solid #fff;
+    border-radius: 1px;
+    font-family: century Gothic;
+    text-transform: capitalize;
+    /* display: inline-block;
+    display: flex;
+    flex-direction: row;    
+  */
+
+    /* text-decoration: transparent; */
+
+}
+.nav_a:hover{
+    border-color: rgb(143, 13, 56);
+    transform:rotate(50deg)
+
+}
+.anchor_tags:hover{
+    transform:rotateY(70deg);
+}
+
